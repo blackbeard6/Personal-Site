@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="favicon" href="favicon.ico">
+        <link rel="stylesheet" href="https://use.typekit.net/mpl1bva.css">
+    </head>
+    <body style="margin: 0;padding: 0">
+        <div class="navbar">
+            <div class="col-2" id="name">
+                TuckerSimpson
+                <a href="index.html"> <span class="link"></span></a>
+            </div> <!-- 20% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1" id="navbar-item">
+                About
+                <a href="about.html"> <span class="link"></span></a>
+            </div> <!-- 10% -->
+            <div class="col-1" id="navbar-item">
+                Projects
+                <a href="projects.html"> <span class="link"></span></a>
+            </div> <!-- 10% -->
+            <div class="col-1" id="navbar-item">
+                <img src="images/linkedinLogo.png" alt="LinkedIn" id="navbar-img">
+                <a href="https://www.linkedin.com/in/tuckersimpson/"> <span class="link"></span></a>
+            </div> <!-- 10% -->
+            <div class="col-1" id="navbar-item">
+                <img src="images/githubLogo.png" alt="Github" id="navbar-img">
+                <a href="https://github.com/blackbeard6"> <span class="link"></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+        </div>
+        <div class="row">
+            <div class="col-7"></div>
+            <div class="col-4"> 
+                <div class="thin-text">
+                    Adventures in New Zealand
+                </div>
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 10</div>
+                      <img src="images/cardronaImg.jpg" style="width:100%">
+                      <div class="text">Cardrona</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 10</div>
+                      <img src="images/milfordImg.jpg" style="width:100%">
+                      <div class="text">Milford Sound</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 10</div>
+                      <img src="images/tongariro2.jpg" style="width:100%">
+                      <div class="text">Tongariro Crossing</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 10</div>
+                        <img src="images/mtfoxImg.jpg" style="width:100%">
+                        <div class="text">Mount Fox</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 10</div>
+                        <img src="images/tongariroImg.jpg" style="width:100%">
+                        <div class="text">Tongariro Crossing</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 10</div>
+                        <img src="images/abelTasmanImg.jpg" style="width:100%">
+                        <div class="text">Abel Tasman</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 10</div>
+                        <img src="images/mrsdaisyImg.jpg" style="width:100%">
+                        <div class="text">The Ride</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 10</div>
+                        <img src="images/roysPeak.jpg" style="width:100%">
+                        <div class="text">Roy's Peak</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 10</div>
+                        <img src="images/seaKayakImg.jpg" style="width:100%">
+                        <div class="text">Banks Peninsula</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="images/wanakatreeImg.jpg" style="width:100%">
+                        <div class="text">Lake Wanaka</div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+
+                    slides[slideIndex-1].style.display = "block";  
+                    setTimeout(showSlides, 4000); // Change image every 4 seconds
+                    }
+                </script>
+
+                
+            </div>
+
+            <div class="col-5"><div class="row"></div></div> <!-- 10% -->
+            
+            <div class="col-6">
+                <h1>About Me</h1>
+                <p>
+                    I am a senior at Dartmouth College where I am studying computer science. I grew up in Aurora, Ontario and Lawrenceville,
+                    New Jersey with my two sisters and my dog, Norman. I love sports, the outdoors, and traveling. I spent this past winter
+                    road tripping across New Zealand with a few of my classmates. On the left, check out some of the pictures my friend Owen took 
+                    throughout the trip. Outside of the classroom I am a member of the Dartmouth Rugby Football Club. I have experience in mobile 
+                    development and computer vision, and am comfortable coding in C, Java, Python, Swift. I also am good with Figma and enjoy
+                    design. I am eager to continue mastering these skills and learning new ones.
+                </p>                
+            </div> <!-- 10% -->
+            <div class="col-7"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+        </div>
+        <div class="row">
+            <div class="col-7"></div> <!-- 10% -->
+            <div class="col-5"></div> <!-- 10% -->
+            <div class="col-5"></div> <!-- 10% -->
+            <div class="col-6">
+                
+                <h1>
+                    Professional Experience
+                </h1>
+                <p>
+                    This past summer I interned on the Compass Team in Walmart's Emerging Tech Org. I built end-to-end product detection
+                    functionality on the edge in our iOS SDK. The project utilized a YOLOV8 model for object localization and a MobileViT
+                    model for image embedding. I deployed the models in TensorFlow using Swift. In the past I also interned on The Land
+                    Accelerator as a Rockefeller Center First-Year Fellow. Over the course of this internship I wrote articles, provided feedback
+                    to entrepreneurs, and built a database of investors.
+            </div> 
+            <div class="col-5"></div> <!-- 10% -->
+            <div class="col-5"></div> <!-- 10% -->
+            <div class="col-5"></div> <!-- 10% -->
+        
+            <div class="col-7"></div> <!-- 10% -->
+        </div>
+        <div class="row">
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+            <div class="col-1"></div> <!-- 10% -->
+        </div>
+        <!-- <table cellspacing="20">
+            <tr>
+                <td>
+                    <img src="images/tucker_headshot.png" alt="Tucker's Profile Photo"> 
+                </td>
+                <td>
+                    <h1>Tucker Simpson</h1>
+                    <p><em>Computer science student at <a href="https://home.dartmouth.edu/">Dartmouth College</a></em>.</p>
+                    <p>I enjoy building cool things, working with people, and traveling new places. I am interested in entrepreneurship and
+                        machine learning.</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Education</h3>
+        <ul>
+            <li>Dartmouth College; <em>B.A. Computer Science</em></li>
+            <li>Lawrence High School</li>
+        </ul>
+        <hr>
+        <h3>Projects</h3>
+        <ul>
+            <li><strong>GreenLight: </strong> an iOS app that uses OCR technology to automate the process of checking student IDs at undergraduate invite events</li>
+            <li><strong>BotHarmon: </strong> a chess AI built in Python</li>
+        </ul>
+        <hr>
+        <h3>Relevant Experience</h3>
+        <table cellspacing="10">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><em>December 2022 - Present</em></td>
+                <td>Incoming Software Engineering Intern at <strong>Walmart</strong></td>
+            </tr>
+            <tr>
+                <td><em>April 2021 - Present</em></td>
+                <td>Founder and CEO of <strong>GreenLight</strong></td>
+            </tr>
+            <tr>
+                <td><em>June 2020 - August 2020</em></td>
+                <td>Rockefeller Center First-Year Fellow at <strong>World Resources Institute</strong></td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Skills</h3>
+        <table>
+            <tr>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>Java</td>
+                            <td>⭑⭑⭑⭑✩</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>⭑⭑⭑⭑✩</td>
+                        </tr>
+                        <tr>
+                            <td>iOS Development</td>
+                            <td>⭑⭑⭑✩✩</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>HTML</td>
+                            <td>⭑⭑⭑⭑✩</td>
+                        </tr>
+                        <tr>
+                            <td>Firebase</td>
+                            <td>⭑⭑✩✩✩</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub</td>
+                            <td>⭑⭑✩✩✩</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr> 
+        </table>
+        <hr>
+        <a href="contact.html">Contact Me</a> -->
+    </body>
+</html>

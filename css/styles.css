@@ -1,0 +1,273 @@
+/********* TAG SELECTORS **********/
+
+body {
+    background-color: #EDF1D6;
+}
+
+hr {
+    border-color: #9DC08B; 
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 5%;
+}
+img {
+    height: 150px;
+}
+
+h1 {
+    color: #40513B;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.25vw;
+    padding-left: 1vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6;
+}
+
+h3 {
+    color: #40513B;
+}
+
+p {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+    letter-spacing: 0.1em;
+    padding: 1vw;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6; */
+}
+
+.navbar {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6;
+    color: #40513B;
+}
+
+/* Grid Stuff */
+.col-1 {width: 10%; aspect-ratio: 1 / 1; position: relative;}
+.col-2 {width: 20%; aspect-ratio: 2 / 1; position: relative;}
+.col-3 {
+    width: 40%; 
+    aspect-ratio: 2 / 1; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-4 {
+    width: 40%; 
+    aspect-ratio: 2 / 1; 
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.col-5 {
+    width: 10%; 
+    aspect-ratio: 1 / 2; 
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.col-6 {
+    width: 40%; 
+    aspect-ratio: 2 / 1; 
+}
+
+.col-6:hover{
+    color: #EDF1D6;
+    width: 40%; 
+    aspect-ratio: 2 / 1; 
+}
+
+.col-7 {
+    width: 5%; 
+    aspect-ratio: 1 / 4; 
+}
+
+
+[class*="col-"] {
+    float: left;
+    position: relative;
+    /* border: 1px solid black; */
+    box-shadow:0px 0px 0px 1px black inset;
+
+}
+
+[class*="col-"]:hover {
+    float: left;
+    position: relative;
+    /* border: 1px solid black; */
+    background-color: #40513B;
+    box-shadow:0px 0px 0px 1px black inset;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/********* CLASS SELECTORS **********/
+
+
+/********* ID SELECTORS **********/
+#name {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.12rem;
+    font-style: italic;
+    font-size: 2.75vw;
+    letter-spacing: -0.12rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* #navbar-img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block; 
+    padding: 10%;
+} */
+
+#navbar-img {
+    /* display: block; */
+    width: 30%;
+    height: auto;
+    -webkit-filter: drop-shadow(3px 3px 0 #EDF1D6)
+                  drop-shadow(-3px -3px 0 #EDF1D6);
+    filter: drop-shadow(2px 2px 0 #EDF1D6) 
+          drop-shadow(-2px -2px 0 #EDF1D6);
+    /* margin: auto; */
+}
+
+#main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {display: none;}
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  width: 60%;
+  height: auto;
+  margin: auto;
+
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  letter-spacing: 0.5rem;
+}
+
+/* Caption text */
+.text {
+  color: #EDF1D6;
+  font-size: 12px;
+  padding: 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #EDF1D6;
+  font-size: 12px;
+  padding: 12px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+}
+
+.active {
+  background-color: #EDF1D6;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.0s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.thin-text{
+    width:8%;
+    margin-left: 10px;
+    padding: 12px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6;
+    color: #40513B;
+}
+
+.welcome-msg{
+    position: absolute;
+    bottom: 50%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 600px; /* Need a specific value to work */
+    background-color: #EDF1D6;
+    z-index: 300;
+    
+    color: #40513B;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EDF1D6;
+    padding-left: 1em;
+    border:3px solid black;
+}
+
+.proj-img {
+    margin: auto;
+}
